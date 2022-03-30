@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Shop | Musicon</title>
+        <link rel="stylesheet" href="style.css" />
+
+        <link
+            rel="stylesheet"
+            href="images/favicon_AC2.png"
+            type="image/x-icon"
+        />
+        <link rel="icon" href="images/favicon_AC2.png" type="image/x-icon" />
+        <meta name="author" content="Anthony Chavis" />
+        <meta name="description" content="" />
+        <meta property="og: title" content="" />
+        <meta
+            property="og:url"
+            content="https://anthonychavis.github.io/musicon/"
+        />
+        <meta property="og:image" content="" />
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content="" />
+        <meta property="og:locale" content="en_GB" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="twitter:title" content="" />
+        <meta property="twitter:description" content="" />
+        <meta property="twitter:image" content="" />
+        <meta property="twitter:card" content="summary_large_image" />
+
+        <script
+            defer
+            src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"
+        ></script>
+        <script id="templateHB" type="text/x-handlebars-template">
+            {{#each instruments}}
+                <article class='instrument'>
+                    <img
+                        class='image'
+                        src='{{this.image}}'
+                        alt='{{this.name}}'
+                    />
+                    <section class='details'>
+                        <h2 class='name'>{{this.name}}</h2>
+                        <p class='description'>{{this.description}}</p>
+                        {{#if sale}}
+                            <p class='price'><del>Price:
+                                    {{this.price}}</del></p>
+                            <p class='sale'>On Sale! {{this.sale}}</p>
+                        {{else}}
+                            <p class='price'>Price: {{this.price}}</p>
+                        {{/if}}
+                    </section>
+                </article>
+            {{/each}}
+        </script>
+        <script defer src="script.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <section class="container">
+                <h1 class="branding">Musicon</h1>
+
+                <nav>
+                    <ul class="navbar">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="current"><a href="store.html">Store</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+
+        <article id="showcase">
+            <section id="information" class="container"></section>
+        </article>
+
+        <footer>
+            <p>&copy; Musicon 2018</p>
+        </footer>
+    </body>
+</html>
