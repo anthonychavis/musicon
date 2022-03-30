@@ -33,7 +33,7 @@ The goal of this project was to update an online store's (Musicon) existing webs
 
 ## Sources
 
-This project was based on [Codecademy's Building Interactive JavaScript Websites - Musicon project](https://www.udemy.com/course/the-complete-javascript-course/).
+This project was based on [Codecademy's Building Interactive JavaScript Websites - Musicon project](https://www.codecademy.com/courses/build-interactive-websites/projects/musicon).
 
 The README layout was inspired by [Rita Łyczywek](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
