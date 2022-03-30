@@ -24,7 +24,7 @@ The goal of this project was to update an online store's (Musicon) existing webs
 
 ## Launch
 
-[Site for the game](https://anthonychavis.github.io/musicon)
+[Site](https://anthonychavis.github.io/musicon)
 
 <!-- ## Illustration
 
