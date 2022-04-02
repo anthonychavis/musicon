@@ -13,7 +13,9 @@ Utilization of a client-side templating engine
 
 ## Introduction
 
-The goal of this project was to update an online store's (Musicon) existing website using a client-side templating engine known as Handlebars. Content is rendered on the webpage using arrays, objects, and control-flow alongside Handlebars iteration and control flow helpers.
+The goal of this project was to update the website of an online store, Musicon, using a client-side templating engine known as Handlebars. Content is rendered on the webpage using arrays, objects, and control flow alongside Handlebars iteration and control flow helpers.
+
+I have not played much with the appearance of this project yet. I want to push through projects to play more with APIs, including creating projects myself.
 
 ## Technologies
 
